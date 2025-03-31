@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @sachin-harkal
-- 👀 I’m interested in web development (full stack) / C,CPP / Java / DSA 
-- 🌱 I’m currently learning core java for backend purposes
-- 💞️ I’m looking to collaborate on 
+- 👀 I’m interested in full stack web development. I have learnt HTML,CSS,JavaScript, React, C,CPP / Java / DSA 
+- 🌱 I’m currently learning Javascript and React
+<!--- 💞️ I’m looking to collaborate on --->
 - 📫 How to reach me - cnt no . : 8888221014
 - You can also reach me through : sachinharkal.netlify.app
 - My email : sachinharkal1095@gmail.com
