@@ -3,10 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Github</title>
+    <title>Sachin Harkal | AI Driven Developer</title>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --text-color: #c9d1d9;
+            --accent-color: #58a6ff;
+            --terminal-bg: #161b22;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            padding: 20px;
+            background-color: var(--terminal-bg);
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .header {
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: var(--accent-color);
+            margin: 0;
+            font-size: 1.8rem;
+        }
+
+        .tagline {
+            font-weight: bold;
+            color: #8b949e;
+        }
+
+        .terminal {
+            background: #000;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.9rem;
+            color: #3fb950; /* Terminal Green */
+            margin: 20px 0;
+        }
+
+        .terminal span { color: var(--accent-color); }
+
+        .links {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            border: 1px solid var(--accent-color);
+            padding: 5px 15px;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            background-color: var(--accent-color);
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <p>Im learning Github</p>
-    <p>You cans also learn it with me</p>
+
+    <div class="container">
+        <div class="header">
+            <h1>Sachin Harkal</h1>
+            <p class="tagline">Gen AI Developer | Prompt Engineer | AI Problem Solver</p>
+        </div>
+
+        <p>I specialize in building high-performance applications and leveraging AI-driven workflows to solve complex technical challenges.</p>
+
+        <div class="terminal">
+            <div>> Initializing stack... <span>[OK]</span></div>
+            <div>> Loading AI Models... <span>[OK]</span></div>
+            <div>> Learning: Gen AI, Prompt Engineering, React</div>
+            <div>> Status: <span style="color: #d29922;">Solving problems with AI...</span></div>
+        </div>
+
+        <p>Connect with me:</p>
+        <div class="links">
+            <a href="https://sachinharkal.netlify.app">Portfolio</a>
+            <a href="mailto:sachinharkal1095@gmail.com">Email Me</a>
+            <a href="tel:+918888221014">Contact</a>
+        </div>
+    </div>
+
 </body>
 </html>
